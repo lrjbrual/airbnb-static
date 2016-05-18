@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  margin-right: auto;
+  margin-left:  auto;
+}
+img{
+  border: 0;
+}
+p{
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+.padded {
+  padding: 10px 0;
+}
