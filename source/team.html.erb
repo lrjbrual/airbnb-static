@@ -1,22 +1,21 @@
 <div class="container text-center padded">
-  <h1>Our Team</h1>
-  <ul class="list-inline">
-        <li>
-          <h2>Larry</h2>
-          <img src="http://placehold.it/100x100" alt="" class="img-circle">
-        </li>
-        <li>
-          <h2>Ryan</h2>
-          <img src="http://placehold.it/100x100" alt="" class="img-circle">
-        </li>
-        <li>
-          <h2>Jeff</h2>
-          <img src="http://placehold.it/100x100" alt="" class="img-circle">
-        </li>
-  </ul>
-  <h3 class="padded">
-    <a href="mailto:contact@airbnb.com">
-      <i class="fa fa-envelope"></i> contact@airbnb.com
-    </a>
-  </h3>
+  <h3>Our Team</h3>
+  <div class="container">
+    <div class="row">
+      <% data.team.each do |member, infos| %>
+        <div class="col-md-4">
+          <div class="card">
+            <%= image_tag infos.picture, class: "img-circle img-size" %>
+            <h3 class="font-avatar"><%= member.capitalize %></h3>
+            <!-- <p><%= infos.role %></p> -->
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <h3 class="padded">
+      <a href="mailto:contact@airbnb.com">
+        <i class="fa fa-envelope"></i> contact@airbnb.com
+      </a>
+    </h3>
+  </div>
 </div>
