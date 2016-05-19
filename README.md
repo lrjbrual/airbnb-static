@@ -1,4 +1,9 @@
-## Démarrer un nouveau projet.
+## This Project is a clone of Air BnB website
+ Code using: Rails / SCSS / Middleman / HTML 5
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+What is all about:
+
+ This is just a dynamic website with details of the team, and link to another page via dynamic website and with video banner.
+
+
+ Code during Le Wagon Bootcamp at Amsterdam 2016

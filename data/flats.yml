@@ -1,0 +1,48 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  accommodates: 3
+  bathrooms: 2
+  bed: Real Bed
+  bedrooms: 4
+  beds: 12
+  property: Apartment
+  type: King size
+  wifi: true
+  description: This one bedroom studio lodges 2 people (there's 3 double bed) it is located in the city center of Paris.
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  accommodates: 2
+  bathrooms: 1
+  bed: Real Bed
+  bedrooms: 2
+  beds: 6
+  property: bed and Breakfast
+  type: King size
+  wifi: false
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center of UK, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from the center.
+anne:
+  owner_name: Anne Culet
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Lovely House
+  city: Brussels
+  accommodates: 2
+  bathrooms: 1
+  bed: Bring your own
+  bedrooms: 2
+  beds: 6
+  property: Bed and Breakfast
+  type: normal size
+  wifi: true
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center of Brussels.

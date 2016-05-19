@@ -2,45 +2,22 @@
   <div class="container">
     <h2 class="text-center">Your Next Strip</h2>
     <div class="row">
+      <% data.flats.each do |owner, flat| %>
       <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-paris.jpg')">
-          <div class="card-category">Paris</div>
+        <div class="card" style="background-image: url('<%= image_path flat.picture %>');">
+          <div class="card-category"><%= flat.city %></div>
           <div class="card-description">
-            <h2>Sebs's Home</h2>
-            <p>Charming room with patio</p>
+            <h2><%= flat.name %></h2>
+            <p><%= flat.summary %></p>
           </div>
-          <%= image_tag "romain.jpeg", class: "card-user avatar avatar-large" %>
-          <a class="card-link" href="#"></a>
+          <%= image_tag flat.owner_picture, class:"card-user avatar avatar-large" %>
+          <%= link_to "flats", "flats/#{owner}.html", class: "card-link" %>
         </div>
       </div>
-      <!-- 2nd Card -->
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpeg')">
-          <div class="card-category">Brussels</div>
-          <div class="card-description">
-            <h2>Anne's Home</h2>
-            <p>Lovely House</p>
-          </div>
-          <%= image_tag "anne.jpg", class: "card-user avatar avatar-large" %>
-          <a class="card-link" href="#"></a>
-        </div>
-      </div>
-      <!-- 3rd Card -->
-      <div class="col-xs-12 col-sm-4">
-        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpeg')">
-          <div class="card-category">London</div>
-          <div class="card-description">
-            <h2>Seb's Home</h2>
-            <p>Nice flat in Piccadilly</p>
-          </div>
-          <%= image_tag "seb.jpg", class: "card-user avatar avatar-large" %>
-          <a class="card-link" href="#"></a>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
 </div>
-
 <!-- Your newsletter code -->
 <div class="text-center padded" id="newsletter">
     <h2>Get news from us</h2>
