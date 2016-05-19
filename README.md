@@ -1,5 +1,5 @@
 ## This Project is a clone of Air BnB website
- Code using: Rails / SCSS / Middleman / HTML 5
+ Code using: Ruby / SCSS / Middleman / HTML 5
 
 What is all about:
 
